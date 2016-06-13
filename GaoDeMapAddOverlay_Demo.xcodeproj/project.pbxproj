@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		311336B11D0EB1D5005ADC38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336B01D0EB1D5005ADC38 /* main.m */; };
 		311336B41D0EB1D5005ADC38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336B31D0EB1D5005ADC38 /* AppDelegate.m */; };
-		311336B71D0EB1D5005ADC38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336B61D0EB1D5005ADC38 /* ViewController.m */; };
-		311336BA1D0EB1D6005ADC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311336B81D0EB1D6005ADC38 /* Main.storyboard */; };
 		311336BC1D0EB1D6005ADC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311336BB1D0EB1D6005ADC38 /* Assets.xcassets */; };
 		311336BF1D0EB1D6005ADC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311336BD1D0EB1D6005ADC38 /* LaunchScreen.storyboard */; };
 		311336CA1D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336C91D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoTests.m */; };
 		311336D51D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336D41D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoUITests.m */; };
+		311336E41D0EB1E9005ADC38 /* CustomAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336E31D0EB1E9005ADC38 /* CustomAnnotationViewController.m */; };
+		311336E71D0EB234005ADC38 /* CusAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 311336E61D0EB234005ADC38 /* CusAnnotationView.m */; };
+		311336E91D0EBB39005ADC38 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 311336E81D0EBB39005ADC38 /* blue.png */; };
+		7A7A6641E02F65974B493D3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C062A63475386A9E5AF25285 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD300BD82109424095967DF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2B65E9B930A584BB41714E3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		311336AC1D0EB1D5005ADC38 /* GaoDeMapAddOverlay_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapAddOverlay_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311336B01D0EB1D5005ADC38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		311336B21D0EB1D5005ADC38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		311336B31D0EB1D5005ADC38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		311336B51D0EB1D5005ADC38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		311336B61D0EB1D5005ADC38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		311336B91D0EB1D6005ADC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		311336BB1D0EB1D6005ADC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311336BE1D0EB1D6005ADC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311336C01D0EB1D6005ADC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,12 @@
 		311336D01D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapAddOverlay_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311336D41D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapAddOverlay_DemoUITests.m; sourceTree = "<group>"; };
 		311336D61D0EB1D6005ADC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311336E21D0EB1E9005ADC38 /* CustomAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationViewController.h; sourceTree = "<group>"; };
+		311336E31D0EB1E9005ADC38 /* CustomAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationViewController.m; sourceTree = "<group>"; };
+		311336E51D0EB234005ADC38 /* CusAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusAnnotationView.h; sourceTree = "<group>"; };
+		311336E61D0EB234005ADC38 /* CusAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusAnnotationView.m; sourceTree = "<group>"; };
+		311336E81D0EBB39005ADC38 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		C062A63475386A9E5AF25285 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7A6641E02F65974B493D3F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25B85E41ECAFCD0F765C9ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BD300BD82109424095967DF /* Pods.debug.xcconfig */,
+				2B65E9B930A584BB41714E3C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		311336A31D0EB1D5005ADC38 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				311336C81D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoTests */,
 				311336D31D0EB1D6005ADC38 /* GaoDeMapAddOverlay_DemoUITests */,
 				311336AD1D0EB1D5005ADC38 /* Products */,
+				25B85E41ECAFCD0F765C9ABE /* Pods */,
+				AB6C99C3856C43F4795FBC8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +120,13 @@
 		311336AE1D0EB1D5005ADC38 /* GaoDeMapAddOverlay_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				311336E81D0EBB39005ADC38 /* blue.png */,
 				311336B21D0EB1D5005ADC38 /* AppDelegate.h */,
 				311336B31D0EB1D5005ADC38 /* AppDelegate.m */,
-				311336B51D0EB1D5005ADC38 /* ViewController.h */,
-				311336B61D0EB1D5005ADC38 /* ViewController.m */,
-				311336B81D0EB1D6005ADC38 /* Main.storyboard */,
+				311336E21D0EB1E9005ADC38 /* CustomAnnotationViewController.h */,
+				311336E31D0EB1E9005ADC38 /* CustomAnnotationViewController.m */,
+				311336E51D0EB234005ADC38 /* CusAnnotationView.h */,
+				311336E61D0EB234005ADC38 /* CusAnnotationView.m */,
 				311336BB1D0EB1D6005ADC38 /* Assets.xcassets */,
 				311336BD1D0EB1D6005ADC38 /* LaunchScreen.storyboard */,
 				311336C01D0EB1D6005ADC38 /* Info.plist */,
@@ -140,6 +161,14 @@
 			path = GaoDeMapAddOverlay_DemoUITests;
 			sourceTree = "<group>";
 		};
+		AB6C99C3856C43F4795FBC8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C062A63475386A9E5AF25285 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 311336D91D0EB1D6005ADC38 /* Build configuration list for PBXNativeTarget "GaoDeMapAddOverlay_Demo" */;
 			buildPhases = (
+				B4C8B21E018DD06BB306EA2F /* Check Pods Manifest.lock */,
 				311336A81D0EB1D5005ADC38 /* Sources */,
 				311336A91D0EB1D5005ADC38 /* Frameworks */,
 				311336AA1D0EB1D5005ADC38 /* Resources */,
+				8AD1A3CD80BEAB4A24E5C49A /* Embed Pods Frameworks */,
+				A3D7CE5BF8975A1864F01B7A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +239,7 @@
 				TargetAttributes = {
 					311336AB1D0EB1D5005ADC38 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X3KMA4YEY3;
 					};
 					311336C41D0EB1D6005ADC38 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +278,7 @@
 			files = (
 				311336BF1D0EB1D6005ADC38 /* LaunchScreen.storyboard in Resources */,
 				311336BC1D0EB1D6005ADC38 /* Assets.xcassets in Resources */,
-				311336BA1D0EB1D6005ADC38 /* Main.storyboard in Resources */,
+				311336E91D0EBB39005ADC38 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +298,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AD1A3CD80BEAB4A24E5C49A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D7CE5BF8975A1864F01B7A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C8B21E018DD06BB306EA2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		311336A81D0EB1D5005ADC38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311336B71D0EB1D5005ADC38 /* ViewController.m in Sources */,
+				311336E41D0EB1E9005ADC38 /* CustomAnnotationViewController.m in Sources */,
+				311336E71D0EB234005ADC38 /* CusAnnotationView.m in Sources */,
 				311336B41D0EB1D5005ADC38 /* AppDelegate.m in Sources */,
 				311336B11D0EB1D5005ADC38 /* main.m in Sources */,
 			);
@@ -308,14 +390,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		311336B81D0EB1D6005ADC38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				311336B91D0EB1D6005ADC38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		311336BD1D0EB1D6005ADC38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,23 +485,31 @@
 		};
 		311336DA1D0EB1D6005ADC38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD300BD82109424095967DF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GaoDeMapAddOverlay_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.GaoDeMapAddOverlay-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinAddOverlay.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		311336DB1D0EB1D6005ADC38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B65E9B930A584BB41714E3C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GaoDeMapAddOverlay_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.GaoDeMapAddOverlay-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinAddOverlay.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +578,7 @@
 				311336DB1D0EB1D6005ADC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311336DC1D0EB1D6005ADC38 /* Build configuration list for PBXNativeTarget "GaoDeMapAddOverlay_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +587,7 @@
 				311336DE1D0EB1D6005ADC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311336DF1D0EB1D6005ADC38 /* Build configuration list for PBXNativeTarget "GaoDeMapAddOverlay_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +596,7 @@
 				311336E11D0EB1D6005ADC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
